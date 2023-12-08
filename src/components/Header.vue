@@ -1,13 +1,15 @@
 <template>
   <header>
     <div class="header-container">
-      <div class="logo"><i class="fa-solid fa-cloud-showers-heavy"></i> Weather App</div>
+      <div class="logo">
+        <h1><i class="fa-solid fa-briefcase"></i> Creatives Job Listings</h1>
+      </div>
       <div id="injectIcon" class="menu-button" @click="toggleMenu">
         <i class="fa-solid fa-bars"></i>
       </div>
       <ul class="menu" :class="{ open: isMenuOpen }">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -17,36 +19,36 @@
     
     <script>
 export default {
-  name: 'HeaderVue',
+  name: "HeaderVue",
   data() {
     return {
-      isMenuOpen: false
-    }
+      isMenuOpen: false,
+    };
   },
   methods: {
     toggleMenu() {
-      const icon = document.getElementById('injectIcon')
-      icon.className = 'sizes'
+      const icon = document.getElementById("injectIcon");
+      icon.className = "sizes";
       if (this.isMenuOpen == true) {
-        icon.innerHTML = `<i class="fa-solid fa-bars"></i>`
-        this.isMenuOpen = false
+        icon.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+        this.isMenuOpen = false;
       } else {
-        icon.innerHTML = `<i class="fa-solid fa-xmark"></i>`
-        this.isMenuOpen = true
+        icon.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+        this.isMenuOpen = true;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
     
-    <style scoped>
+<style scoped>
 /* Add your styling here */
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #2c3e50;
+  background-color: #1d3557;
   color: #fff;
 }
 
@@ -86,7 +88,7 @@ export default {
     position: absolute;
     top: 45px;
     right: 15px;
-    background-color: #2c3e50db;
+    background-color: #1d3557;
     width: 150px;
     z-index: 1;
   }

@@ -12,21 +12,29 @@
       </div>
     </div>
     <div class="social-media">
-      <a href="https://twitter.com/victor_gis"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/victor_gis"
+        ><i class="fa fa-twitter" aria-hidden="true"></i
+      ></a>
       <a href="https://www.linkedin.com/in/victoressang/"
         ><i class="fa fa-linkedin" aria-hidden="true"></i
       ></a>
-      <a href="https://github.com/victorgis"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://medium.com/@victorgis"><i class="fa fa-medium" aria-hidden="true"></i></a>
+      <a href="https://github.com/victorgis"
+        ><i class="fa fa-github" aria-hidden="true"></i
+      ></a>
+      <a href="https://medium.com/@victorgis"
+        ><i class="fa fa-medium" aria-hidden="true"></i
+      ></a>
       <a href="https://www.youtube.com/@victoressang"
         ><i class="fa fa-youtube" aria-hidden="true"></i
       ></a>
-      <a href="https://veespatial.netlify.app/"><i class="fas fa-globe-africa"></i></a>
+      <a href="https://veespatial.netlify.app/"
+        ><i class="fas fa-globe-africa"></i
+      ></a>
     </div>
     <div>
       <p>
-        <i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2023 Victor Essang. All Rights
-        Reserved.
+        <i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2023 Victor
+        Essang. All Rights Reserved.
       </p>
     </div>
   </footer>
@@ -34,15 +42,15 @@
     
     <script>
 export default {
-  name: 'FooterVue'
+  name: "FooterVue",
   // You can add any logic or data properties specific to your footer here.
-}
+};
 </script>
     
-    <style scoped>
+<style scoped>
 /* Add your styling for the footer here */
 footer {
-  background-color: #2c3e50;
+  background-color: #1d3557;
   color: #fff;
   padding: 20px 0;
   text-align: center;
